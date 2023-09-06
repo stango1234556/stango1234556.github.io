@@ -1,0 +1,19 @@
+.social {
+    text-align: center
+}
+
+.social .contact-icon {
+    font-size: 4rem
+}
+
+.social .contact-icon a {
+    color: var(--global-icon-color)
+}
+
+.social .contact-icon a:hover {
+    color: var(--global-theme-color)
+}
+
+.social .contact-note {
+    font-size: 0.8rem
+}
