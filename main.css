@@ -1,7 +1,7 @@
 :root {
     --global-bg-color: #424242;
     --global-text-color: #e8e8e8;
-    --global-theme-color: #6ddeff;
+    --global-hover-color: #6ddeff;
     --global-icon-color: #ffe5bd
 }
 
@@ -26,5 +26,5 @@ body {
 }
 
 .social .contact-icon a:hover {
-    color: var(--global-theme-color)
+    color: var(--global-hover-color)
 }
