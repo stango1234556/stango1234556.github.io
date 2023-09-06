@@ -1,9 +1,17 @@
 :root {
     --global-bg-color: #424242;
     --global-text-color: #e8e8e8;
-    --global-hover-color: #7bcce4;
-    --global-icon-color: navajowhite
+    --global-theme-color: #6ddeff;
+    --global-icon-color: #ffe5bd
 }
+
+body {
+    padding-bottom: 70px;
+    color: var(--global-text-color);
+    background-color: var(--global-bg-color)
+}
+
+
 
 .social {
     text-align: center
@@ -18,5 +26,5 @@
 }
 
 .social .contact-icon a:hover {
-    color: var(--global-hovor-color)
+    color: var(--global-theme-color)
 }
