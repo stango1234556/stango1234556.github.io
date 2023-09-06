@@ -1,8 +1,8 @@
 :root {
-    --global-bg-color: #fff;
-    --global-text-color: #000;
+    --global-bg-color: #424242;
+    --global-text-color: #e8e8e8;
     --global-hover-color: #7bcce4;
-    --global-icon-color: #424242
+    --global-icon-color: navajowhite
 }
 
 .social {
@@ -19,4 +19,3 @@
 
 .social .contact-icon a:hover {
     color: var(--global-hovor-color)
-}
