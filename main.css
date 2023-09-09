@@ -6,7 +6,7 @@
 }
 
 body {
-    padding-top: 80px;
+    padding-top: 120px;
     color: var(--global-text-color);
     background-color: var(--global-bg-color)
 }
