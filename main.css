@@ -16,7 +16,7 @@ body {
 }
 
 .social {
-    text-align: center
+    text-indent: 28%;
 }
 
 .social .contact-icon {
@@ -29,4 +29,8 @@ body {
 
 .social .contact-icon a:hover {
     color: var(--global-hover-color)
+}
+
+.profile {
+    text-indent: 28%;
 }
