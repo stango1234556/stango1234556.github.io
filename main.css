@@ -6,12 +6,14 @@
 }
 
 body {
-    padding-bottom: 70px;
+    padding-top: 80px;
     color: var(--global-text-color);
     background-color: var(--global-bg-color)
 }
 
-
+.container {
+    max-width: 600px
+}
 
 .social {
     text-align: center
@@ -28,3 +30,4 @@ body {
 .social .contact-icon a:hover {
     color: var(--global-hover-color)
 }
+
