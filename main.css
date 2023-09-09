@@ -12,11 +12,11 @@ body {
 }
 
 .container {
-    max-width: 600px
+    max-width: 750px
 }
 
 .social {
-    text-indent: 28%;
+    text-indent: 3%;
 }
 
 .social .contact-icon {
@@ -31,6 +31,16 @@ body {
     color: var(--global-hover-color)
 }
 
-.profile {
-    text-indent: 28%;
+img {
+  display: block;
+  margin-left: 30%;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 20px;
 }
