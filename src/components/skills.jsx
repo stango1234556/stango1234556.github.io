@@ -5,6 +5,8 @@ import GameMaker from "../images/GameMaker.png";
 import Java from "../images/Java.png";
 import Python from "../images/Python.png";
 import PremierePro from "../images/PremierePro.png";
+import Eclipse from "../images/Eclipse.png";
+import VSCode from "../images/VSCode.png";
 
 import {
   // Java,
@@ -61,6 +63,26 @@ const Skills = memo(({ refs }) => {
               ></img>
             </div>
             <p className="skill-info">Premiere Pro</p>
+          </div>
+          <div className="skill-group">
+            <div className="skill">
+              <img
+              className="eclipse-picture"
+              src={Eclipse} height = "55" width = "55"
+              alt="Failed to load."
+              ></img>
+            </div>
+            <p className="skill-info">Eclipse</p>
+          </div>
+          <div className="skill-group">
+            <div className="skill">
+              <img
+              className="eclipse-picture"
+              src={VSCode} height = "55" width = "55"
+              alt="Failed to load."
+              ></img>
+            </div>
+            <p className="skill-info">VS Code</p>
           </div>
         </div>
       </div>
