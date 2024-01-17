@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.7a9ad8d6.chunk.css",
-    "main.js": "/static/js/main.6f672199.chunk.js",
-    "main.js.map": "/static/js/main.6f672199.chunk.js.map",
+    "main.js": "/static/js/main.32252845.chunk.js",
+    "main.js.map": "/static/js/main.32252845.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8dff4b04.js",
     "runtime-main.js.map": "/static/js/runtime-main.8dff4b04.js.map",
     "static/js/2.9413c698.chunk.js": "/static/js/2.9413c698.chunk.js",
@@ -13,6 +13,7 @@
     "static/css/main.7a9ad8d6.chunk.css.map": "/static/css/main.7a9ad8d6.chunk.css.map",
     "static/js/2.9413c698.chunk.js.LICENSE.txt": "/static/js/2.9413c698.chunk.js.LICENSE.txt",
     "static/media/ComingSoon.cff93457.png": "/static/media/ComingSoon.cff93457.png",
+    "static/media/Eclipse.2ad62ba9.png": "/static/media/Eclipse.2ad62ba9.png",
     "static/media/Java.ddf8676b.png": "/static/media/Java.ddf8676b.png",
     "static/media/League.e59a1c6e.jpg": "/static/media/League.e59a1c6e.jpg",
     "static/media/Me.9057726a.jpg": "/static/media/Me.9057726a.jpg",
@@ -21,12 +22,13 @@
     "static/media/PremierePro.c26a26f6.png": "/static/media/PremierePro.c26a26f6.png",
     "static/media/Python.448fb2a8.png": "/static/media/Python.448fb2a8.png",
     "static/media/Resume.cb1b885d.pdf": "/static/media/Resume.cb1b885d.pdf",
-    "static/media/portfolio.scss": "/static/media/SakuraCity.4d252ca8.gif"
+    "static/media/portfolio.scss": "/static/media/SakuraCity.4d252ca8.gif",
+    "static/media/VSCode.ed4788d2.png": "/static/media/VSCode.ed4788d2.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8dff4b04.js",
     "static/js/2.9413c698.chunk.js",
     "static/css/main.7a9ad8d6.chunk.css",
-    "static/js/main.6f672199.chunk.js"
+    "static/js/main.32252845.chunk.js"
   ]
 }
