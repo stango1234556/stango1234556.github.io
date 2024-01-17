@@ -1,20 +1,15 @@
 import React, { memo } from "react";
 
 import "../styles/skills.scss";
+import GameMaker from "../images/GameMaker.png";
+import Java from "../images/Java.png";
+import Python from "../images/Python.png";
+import PremierePro from "../images/PremierePro.png";
 
 import {
-  ReactJs,
-  Redux,
-  Reduxsaga,
-  Sass,
-  Javascript,
-  Html5,
-  CssThree,
-  Nodedotjs,
-  Express,
-  Mysql,
-  R,
-  Mongodb,
+  // Java,
+  // Python,
+  // Adobepremierepro,
 } from "@icons-pack/react-simple-icons";
 
 const Skills = memo(({ refs }) => {
@@ -22,85 +17,50 @@ const Skills = memo(({ refs }) => {
     <section ref={refs} className="skills-section">
       <div className="section-title">SKILLS</div>
       <div className="skills-content">
-        <h3 className="skill-title">frontend</h3>
+        <h3 className="skill-title">languages</h3>
         <div className="skills-infos">
           <div className="skill-group">
             <div className="skill">
-              <Html5 color="#E34F26" size={50} />
+              <img
+              className="java-picture"
+              src={Java} height = "60" width = "60"
+              alt="Failed to load."
+              ></img>
             </div>
-            <p className="skill-info">HTML</p>
+            <p className="skill-info">Java</p>
           </div>
           <div className="skill-group">
             <div className="skill">
-              <CssThree color="#1572B6" size={50} />
+              <img
+              className="python-picture"
+              src={Python} height = "60" width = "60"
+              alt="Failed to load."
+              ></img>
             </div>
-            <p className="skill-info">CSS</p>
-          </div>
-          <div className="skill-group">
-            <div className="skill">
-              <Javascript color="#F7DF1E" size={50} />
-            </div>
-            <p className="skill-info">JS</p>
-          </div>
-          <div className="skill-group">
-            <div className="skill">
-              <ReactJs color="#61DAFB" size={50} />
-            </div>
-            <p className="skill-info">React.js</p>
-          </div>
-          <div className="skill-group">
-            <div className="skill">
-              <Redux color="#764ABC" size={50} />
-            </div>
-            <p className="skill-info">Redux</p>
-          </div>
-          <div className="skill-group">
-            <div className="skill">
-              <Reduxsaga color="#999999" size={50} />
-            </div>
-            <p className="skill-info">Redux-Saga</p>
-          </div>
-          <div className="skill-group">
-            <div className="skill">
-              <Sass color="#CC6699" size={50} />
-            </div>
-            <p className="skill-info">SASS</p>
+            <p className="skill-info">Python</p>
           </div>
         </div>
-        <h3 className="skill-title">backend</h3>
+        <h3 className="skill-title">applications</h3>
         <div className="skills-infos">
           <div className="skill-group">
             <div className="skill">
-              <Nodedotjs color="#339933" size={50} />
+              <img
+              className="gamemaker-picture"
+              src={GameMaker} height = "50" width = "50"
+              alt="Failed to load."
+              ></img>
             </div>
-            <p className="skill-info">Node.js</p>
+            <p className="skill-info">GameMaker</p>
           </div>
           <div className="skill-group">
             <div className="skill">
-              <Express color="#000000" size={50} />
+              <img
+              className="premierepro-picture"
+              src={PremierePro} height = "55" width = "55"
+              alt="Failed to load."
+              ></img>
             </div>
-            <p className="skill-info">Express</p>
-          </div>
-        </div>
-        <h3 className="skill-title">data</h3>
-        <div className="skills-infos">
-          <div className="skill-group">
-            <div className="skill">
-              <R color="#276DC3" size={50} />
-            </div>
-            <p className="skill-info">R</p>
-          </div>
-          <div className="skill-group">
-            <div className="skill">
-              <Mysql color="#4479A1" size={50} />
-            </div>
-            <p className="skill-info">My-SQL</p>
-          </div>
-          <div className="skill-group">
-            <div className="skill">
-              <Mongodb color="#47A248" size={50} />
-            </div>
-            <p className="skill-info">MongoDB</p>
+            <p className="skill-info">Premiere Pro</p>
           </div>
         </div>
       </div>

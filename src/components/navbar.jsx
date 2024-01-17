@@ -1,5 +1,6 @@
 import React, { useCallback, useState, memo } from "react";
 import "../styles/navbar.scss";
+import Pdf from '../documents/Resume.pdf';
 
 import { MdMenu } from "react-icons/md";
 
@@ -14,7 +15,7 @@ const Navbar = memo(({ handleScroll }) => {
     <>
       <header>
         <nav className="navbar">
-          <div className="navbar__logo">MMFIN.</div>
+          <div className="navbar__logo">Samuel Tang</div>
 
           <ul className="navbar__menu">
             <li>
@@ -26,6 +27,11 @@ const Navbar = memo(({ handleScroll }) => {
             <li>
               <button onClick={() => handleScroll("portfolio")}>
                 Portfolio
+              </button>
+            </li>
+            <li>
+              <button onClick={() => window.open(Pdf)}>
+                Resume
               </button>
             </li>
           </ul>
@@ -66,6 +72,17 @@ const Navbar = memo(({ handleScroll }) => {
                 }}
               >
                 Portfolio
+              </button>
+            </li>
+            <li>
+              <button>
+                <a
+                  href='/pathToPdf.pdf'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  RESUME
+                </a>
               </button>
             </li>
           </ul>
