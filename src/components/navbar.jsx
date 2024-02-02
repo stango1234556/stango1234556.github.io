@@ -75,14 +75,8 @@ const Navbar = memo(({ handleScroll }) => {
               </button>
             </li>
             <li>
-              <button>
-                <a
-                  href='/pathToPdf.pdf'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  RESUME
-                </a>
+              <button onClick={() => window.open(Pdf)}>
+                Resume
               </button>
             </li>
           </ul>
