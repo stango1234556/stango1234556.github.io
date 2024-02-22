@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.4560ec85.chunk.css",
-    "main.js": "/static/js/main.09b1139f.chunk.js",
-    "main.js.map": "/static/js/main.09b1139f.chunk.js.map",
+    "main.js": "/static/js/main.ca1d52ff.chunk.js",
+    "main.js.map": "/static/js/main.ca1d52ff.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8dff4b04.js",
     "runtime-main.js.map": "/static/js/runtime-main.8dff4b04.js.map",
     "static/js/2.9413c698.chunk.js": "/static/js/2.9413c698.chunk.js",
@@ -12,23 +12,27 @@
     "index.html": "/index.html",
     "static/css/main.4560ec85.chunk.css.map": "/static/css/main.4560ec85.chunk.css.map",
     "static/js/2.9413c698.chunk.js.LICENSE.txt": "/static/js/2.9413c698.chunk.js.LICENSE.txt",
+    "static/media/C.bf0af88d.png": "/static/media/C.bf0af88d.png",
     "static/media/ComingSoon.cff93457.png": "/static/media/ComingSoon.cff93457.png",
-    "static/media/Eclipse.2ad62ba9.png": "/static/media/Eclipse.2ad62ba9.png",
     "static/media/Java.ddf8676b.png": "/static/media/Java.ddf8676b.png",
+    "static/media/Kingslayers.90462af9.png": "/static/media/Kingslayers.90462af9.png",
+    "static/media/Kingslayers.926ae812.pdf": "/static/media/Kingslayers.926ae812.pdf",
     "static/media/League.e59a1c6e.jpg": "/static/media/League.e59a1c6e.jpg",
     "static/media/Me.9057726a.jpg": "/static/media/Me.9057726a.jpg",
     "static/media/Memory.4febb014.png": "/static/media/Memory.4febb014.png",
     "static/media/Podcast.9161face.jpg": "/static/media/Podcast.9161face.jpg",
     "static/media/PremierePro.c26a26f6.png": "/static/media/PremierePro.c26a26f6.png",
     "static/media/Python.448fb2a8.png": "/static/media/Python.448fb2a8.png",
-    "static/media/Resume.cb1b885d.pdf": "/static/media/Resume.cb1b885d.pdf",
+    "static/media/Resume.467579f1.pdf": "/static/media/Resume.467579f1.pdf",
     "static/media/portfolio.scss": "/static/media/SakuraCity.4d252ca8.gif",
+    "static/media/SpartanYahtzee.19009d06.png": "/static/media/SpartanYahtzee.19009d06.png",
+    "static/media/SpartanYahtzee.80309cd6.pdf": "/static/media/SpartanYahtzee.80309cd6.pdf",
     "static/media/VSCode.ed4788d2.png": "/static/media/VSCode.ed4788d2.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8dff4b04.js",
     "static/js/2.9413c698.chunk.js",
     "static/css/main.4560ec85.chunk.css",
-    "static/js/main.09b1139f.chunk.js"
+    "static/js/main.ca1d52ff.chunk.js"
   ]
 }
