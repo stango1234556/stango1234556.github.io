@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.4560ec85.chunk.css",
-    "main.js": "/static/js/main.dfdf231e.chunk.js",
-    "main.js.map": "/static/js/main.dfdf231e.chunk.js.map",
+    "main.js": "/static/js/main.a8037c41.chunk.js",
+    "main.js.map": "/static/js/main.a8037c41.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8dff4b04.js",
     "runtime-main.js.map": "/static/js/runtime-main.8dff4b04.js.map",
     "static/js/2.9413c698.chunk.js": "/static/js/2.9413c698.chunk.js",
@@ -20,6 +20,8 @@
     "static/media/League.e59a1c6e.jpg": "/static/media/League.e59a1c6e.jpg",
     "static/media/Me.9057726a.jpg": "/static/media/Me.9057726a.jpg",
     "static/media/Memory.4febb014.png": "/static/media/Memory.4febb014.png",
+    "static/media/Mother.35c8689f.pdf": "/static/media/Mother.35c8689f.pdf",
+    "static/media/Mother.f1bc47f4.png": "/static/media/Mother.f1bc47f4.png",
     "static/media/Podcast.9161face.jpg": "/static/media/Podcast.9161face.jpg",
     "static/media/PremierePro.c26a26f6.png": "/static/media/PremierePro.c26a26f6.png",
     "static/media/Python.448fb2a8.png": "/static/media/Python.448fb2a8.png",
@@ -33,6 +35,6 @@
     "static/js/runtime-main.8dff4b04.js",
     "static/js/2.9413c698.chunk.js",
     "static/css/main.4560ec85.chunk.css",
-    "static/js/main.dfdf231e.chunk.js"
+    "static/js/main.a8037c41.chunk.js"
   ]
 }
