@@ -6,9 +6,11 @@ import memory from "../images/Memory.png";
 import podcast from "../images/Podcast.jpg";
 import kingslayers from "../images/Kingslayers.png";
 import spartanyahtzee from "../images/SpartanYahtzee.png";
+import mother from "../images/Mother.png";
 import comingsoon from "../images/ComingSoon.png";
 import spartanpdf from '../documents/SpartanYahtzee.pdf';
 import kingslayerspdf from '../documents/Kingslayers.pdf';
+import motherpdf from '../documents/Mother.pdf';
 
 const Portfolio = memo(({ refs }) => {
   return (
@@ -120,6 +122,27 @@ const Portfolio = memo(({ refs }) => {
             <a
               className="button"
               onClick={() => window.open(kingslayerspdf)}
+            >
+              PDF Link
+            </a>
+          </div>
+        </div>
+        <div className="portfolio-info-area">
+          <div className="portfolio-info">
+            <div className="picture-area">
+              <img src={mother} alt="Failed to load." />
+            </div>
+            <div className="title"><br />Mother</div>
+            <div className="contents">
+              <br />
+              Prototype for a single player high score card game with fantasy and tokusatsu as thematic constraints.
+              <br />
+              <br />
+              <br />
+            </div>
+            <a
+              className="button"
+              onClick={() => window.open(motherpdf)}
             >
               PDF Link
             </a>
