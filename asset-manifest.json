@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.4560ec85.chunk.css",
-    "main.js": "/static/js/main.a8037c41.chunk.js",
-    "main.js.map": "/static/js/main.a8037c41.chunk.js.map",
+    "main.js": "/static/js/main.3b4ae014.chunk.js",
+    "main.js.map": "/static/js/main.3b4ae014.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8dff4b04.js",
     "runtime-main.js.map": "/static/js/runtime-main.8dff4b04.js.map",
     "static/js/2.9413c698.chunk.js": "/static/js/2.9413c698.chunk.js",
@@ -15,26 +15,26 @@
     "static/media/C.bf0af88d.png": "/static/media/C.bf0af88d.png",
     "static/media/ComingSoon.cff93457.png": "/static/media/ComingSoon.cff93457.png",
     "static/media/Java.ddf8676b.png": "/static/media/Java.ddf8676b.png",
-    "static/media/Kingslayers.978b0454.png": "/static/media/Kingslayers.978b0454.png",
-    "static/media/Kingslayers.b0593792.pdf": "/static/media/Kingslayers.b0593792.pdf",
+    "static/media/Kingslayers.68c820b9.png": "/static/media/Kingslayers.68c820b9.png",
+    "static/media/Kingslayers.974a7db3.pdf": "/static/media/Kingslayers.974a7db3.pdf",
     "static/media/League.e59a1c6e.jpg": "/static/media/League.e59a1c6e.jpg",
     "static/media/Me.9057726a.jpg": "/static/media/Me.9057726a.jpg",
     "static/media/Memory.4febb014.png": "/static/media/Memory.4febb014.png",
-    "static/media/Mother.35c8689f.pdf": "/static/media/Mother.35c8689f.pdf",
-    "static/media/Mother.f1bc47f4.png": "/static/media/Mother.f1bc47f4.png",
+    "static/media/Mother.983fa181.png": "/static/media/Mother.983fa181.png",
+    "static/media/Mother.9d500dbf.pdf": "/static/media/Mother.9d500dbf.pdf",
     "static/media/Podcast.9161face.jpg": "/static/media/Podcast.9161face.jpg",
     "static/media/PremierePro.c26a26f6.png": "/static/media/PremierePro.c26a26f6.png",
     "static/media/Python.448fb2a8.png": "/static/media/Python.448fb2a8.png",
     "static/media/Resume.467579f1.pdf": "/static/media/Resume.467579f1.pdf",
     "static/media/portfolio.scss": "/static/media/SakuraCity.4d252ca8.gif",
-    "static/media/SpartanYahtzee.19009d06.png": "/static/media/SpartanYahtzee.19009d06.png",
-    "static/media/SpartanYahtzee.80309cd6.pdf": "/static/media/SpartanYahtzee.80309cd6.pdf",
+    "static/media/SpartanYahtzee.07df027d.pdf": "/static/media/SpartanYahtzee.07df027d.pdf",
+    "static/media/SpartanYahtzee.15cddccf.png": "/static/media/SpartanYahtzee.15cddccf.png",
     "static/media/VSCode.ed4788d2.png": "/static/media/VSCode.ed4788d2.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8dff4b04.js",
     "static/js/2.9413c698.chunk.js",
     "static/css/main.4560ec85.chunk.css",
-    "static/js/main.a8037c41.chunk.js"
+    "static/js/main.3b4ae014.chunk.js"
   ]
 }
