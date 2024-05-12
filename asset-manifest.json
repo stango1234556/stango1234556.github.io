@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.4560ec85.chunk.css",
-    "main.js": "/static/js/main.169fa3fc.chunk.js",
-    "main.js.map": "/static/js/main.169fa3fc.chunk.js.map",
+    "main.js": "/static/js/main.e3bbdd4b.chunk.js",
+    "main.js.map": "/static/js/main.e3bbdd4b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8dff4b04.js",
     "runtime-main.js.map": "/static/js/runtime-main.8dff4b04.js.map",
     "static/js/2.9413c698.chunk.js": "/static/js/2.9413c698.chunk.js",
@@ -14,6 +14,10 @@
     "static/js/2.9413c698.chunk.js.LICENSE.txt": "/static/js/2.9413c698.chunk.js.LICENSE.txt",
     "static/media/C.bf0af88d.png": "/static/media/C.bf0af88d.png",
     "static/media/ComingSoon.cff93457.png": "/static/media/ComingSoon.cff93457.png",
+    "static/media/DiceWars.111fb325.png": "/static/media/DiceWars.111fb325.png",
+    "static/media/DiceWars.322e03f1.pdf": "/static/media/DiceWars.322e03f1.pdf",
+    "static/media/Echolocation.173f1616.pdf": "/static/media/Echolocation.173f1616.pdf",
+    "static/media/Echolocation.ae581218.jpg": "/static/media/Echolocation.ae581218.jpg",
     "static/media/Java.ddf8676b.png": "/static/media/Java.ddf8676b.png",
     "static/media/Kingslayers.68c820b9.png": "/static/media/Kingslayers.68c820b9.png",
     "static/media/Kingslayers.974a7db3.pdf": "/static/media/Kingslayers.974a7db3.pdf",
@@ -25,16 +29,14 @@
     "static/media/Podcast.9161face.jpg": "/static/media/Podcast.9161face.jpg",
     "static/media/PremierePro.c26a26f6.png": "/static/media/PremierePro.c26a26f6.png",
     "static/media/Python.448fb2a8.png": "/static/media/Python.448fb2a8.png",
-    "static/media/Resume.04dcbf45.pdf": "/static/media/Resume.04dcbf45.pdf",
+    "static/media/Resume.bee68e9c.pdf": "/static/media/Resume.bee68e9c.pdf",
     "static/media/portfolio.scss": "/static/media/SakuraCity.4d252ca8.gif",
-    "static/media/SpartanYahtzee.07df027d.pdf": "/static/media/SpartanYahtzee.07df027d.pdf",
-    "static/media/SpartanYahtzee.15cddccf.png": "/static/media/SpartanYahtzee.15cddccf.png",
     "static/media/VSCode.ed4788d2.png": "/static/media/VSCode.ed4788d2.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8dff4b04.js",
     "static/js/2.9413c698.chunk.js",
     "static/css/main.4560ec85.chunk.css",
-    "static/js/main.169fa3fc.chunk.js"
+    "static/js/main.e3bbdd4b.chunk.js"
   ]
 }
