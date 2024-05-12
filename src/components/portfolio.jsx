@@ -5,18 +5,21 @@ import league from "../images/League.jpg";
 import memory from "../images/Memory.png";
 import podcast from "../images/Podcast.jpg";
 import kingslayers from "../images/Kingslayers.png";
-import spartanyahtzee from "../images/SpartanYahtzee.png";
+import dicewars from "../images/DiceWars.png";
 import mother from "../images/Mother.png";
+import echolocation from "../images/Echolocation.jpg";
 import comingsoon from "../images/ComingSoon.png";
-import spartanpdf from '../documents/SpartanYahtzee.pdf';
+import dicepdf from '../documents/DiceWars.pdf';
 import kingslayerspdf from '../documents/Kingslayers.pdf';
 import motherpdf from '../documents/Mother.pdf';
+import echolocationpdf from '../documents/Echolocation.pdf';
 
 const Portfolio = memo(({ refs }) => {
   return (
     <section ref={refs} className="portfolio-section">
       <div className="section-title">PORTFOLIO</div>
       <div className="portfolio-content">
+
         <div className="portfolio-info-area">
           <div className="portfolio-info">
             <div className="picture-area">
@@ -26,7 +29,6 @@ const Portfolio = memo(({ refs }) => {
             <div className="contents">
               <br />
               Collaborated with a friend to write, film, and edit a seven episode podcast series. Researched about different video game related topics (design philosophies, development process, mainstream impact, speedrunning, esports, etc.).
-
             </div>
             <a
               className="button"
@@ -36,6 +38,117 @@ const Portfolio = memo(({ refs }) => {
             </a>
           </div>
         </div>
+
+        <div className="portfolio-info-area">
+          <div className="portfolio-info">
+            <div className="picture-area">
+              <img src={dicewars} alt="Failed to load." />
+            </div>
+            <div className="title"><br />Dice Wars</div>
+            <div className="contents">
+              <br />
+              A 2 player game where you roll dice to defeat your opponent. Add dice to your dice pool to strengthen and change your army's playstyle in a deck-building-esque game. Our group is planning to continue to develop this game.
+              <br />
+            </div>
+            <a
+              className="button"
+              href="https://youtu.be/YWYECi5K3C4?si=ms9U2fndBgGjfGFn"
+            >
+              Youtube Link
+            </a>
+            <a
+              className="button"
+              onClick={() => window.open(dicepdf)}
+            >
+              PDF Link
+            </a>
+          </div>
+        </div>
+
+        <div className="portfolio-info-area">
+          <div className="portfolio-info">
+            <div className="picture-area">
+              <img src={echolocation} alt="Failed to load." />
+            </div>
+            <div className="title"><br />Echolocation</div>
+            <div className="contents">
+              <br />
+              A collaborative social game inspired from <i>Wavelength</i>. Players must attempt to understand each other’s interpretations of words to navigate towards a location on the board. Our group is continuing to develop this game, with goals of eventually publishing it.
+              <br />
+            </div>
+            <a
+              className="button"
+              onClick={() => window.open(echolocationpdf)}
+            >
+              PDF Link
+            </a>
+          </div>
+        </div>
+
+        <div className="portfolio-info-area">
+          <div className="portfolio-info">
+            <div className="picture-area">
+              <img src={mother} alt="Failed to load." />
+            </div>
+            <div className="title"><br />Mother</div>
+            <div className="contents">
+              <br />
+              A single player high score card game with fantasy and tokusatsu as thematic constraints.
+              <br />
+              <br />
+              <br />
+              <br />
+            </div>
+            <a
+              className="button"
+              onClick={() => window.open(motherpdf)}
+            >
+              PDF Link
+            </a>
+          </div>
+        </div>
+
+        <div className="portfolio-info-area">
+          <div className="portfolio-info">
+            <div className="picture-area">
+              <img src={kingslayers} alt="Failed to load." />
+            </div>
+            <div className="title"><br />Kingslayers</div>
+            <div className="contents">
+              <br />
+              A 4 player collaborative game with randomized resources as a structural constraint and cards as a material constraint.
+              <br />
+              <br />
+            </div>
+            <a
+              className="button"
+              onClick={() => window.open(kingslayerspdf)}
+            >
+              PDF Link
+            </a>
+          </div>
+        </div>
+
+        <div className="portfolio-info-area">
+          <div className="portfolio-info">
+            <div className="picture-area">
+              <img src={league} alt="Failed to load." />
+            </div>
+            <div className="title"><br />Riot API Stat Tracker</div>
+            <div className="contents">
+              <br />
+              A Python script that gathers data from Riot’s API to show an entered user’s most recent stats for a desired game mode in <i>League of Legends</i>. 
+              <br />
+            </div>
+            <a
+              className="button"
+              href="https://github.com/stango1234556/League-of-Legends-Stats"
+            >
+              Github Link
+            </a>
+          </div>
+        </div>
+
         <div className="portfolio-info-area">
           <div className="portfolio-info">
             <div className="picture-area">
@@ -66,88 +179,7 @@ const Portfolio = memo(({ refs }) => {
             </a>
           </div>
         </div>
-        <div className="portfolio-info-area">
-          <div className="portfolio-info">
-            <div className="picture-area">
-              <img src={league} alt="Failed to load." />
-            </div>
-            <div className="title"><br />Riot API Stat Tracker</div>
-            <div className="contents">
-              <br />
-              A Python script that gathers data from Riot’s API to show an entered user’s most recent stats for a desired game mode in League of Legends. 
-              <br />
-              <br />
-            </div>
-            <a
-              className="button"
-              href="https://github.com/stango1234556/League-of-Legends-Stats"
-            >
-              Github Link
-            </a>
-          </div>
-        </div>
-        <div className="portfolio-info-area">
-          <div className="portfolio-info">
-            <div className="picture-area">
-              <img src={spartanyahtzee} alt="Failed to load." />
-            </div>
-            <div className="title"><br />Spartan Yahtzee</div>
-            <div className="contents">
-              <br />
-              Prototype for a 2 player game based on the core rerolling mechanic of <i>King of Tokyo</i>.
-              <br />
-              <br />
-              <br />
-            </div>
-            <a
-              className="button"
-              onClick={() => window.open(spartanpdf)}
-            >
-              PDF Link
-            </a>
-          </div>
-        </div>
-        <div className="portfolio-info-area">
-          <div className="portfolio-info">
-            <div className="picture-area">
-              <img src={kingslayers} alt="Failed to load." />
-            </div>
-            <div className="title"><br />Kingslayers</div>
-            <div className="contents">
-              <br />
-              Prototype for a 4 player collaborative game with randomized resources as a structural constraint and cards as a material constraint.
-              <br />
-              <br />
-            </div>
-            <a
-              className="button"
-              onClick={() => window.open(kingslayerspdf)}
-            >
-              PDF Link
-            </a>
-          </div>
-        </div>
-        <div className="portfolio-info-area">
-          <div className="portfolio-info">
-            <div className="picture-area">
-              <img src={mother} alt="Failed to load." />
-            </div>
-            <div className="title"><br />Mother</div>
-            <div className="contents">
-              <br />
-              Prototype for a single player high score card game with fantasy and tokusatsu as thematic constraints.
-              <br />
-              <br />
-              <br />
-            </div>
-            <a
-              className="button"
-              onClick={() => window.open(motherpdf)}
-            >
-              PDF Link
-            </a>
-          </div>
-        </div>
+
         <div className="portfolio-info-area">
           <div className="portfolio-info">
             <div className="picture-area">
