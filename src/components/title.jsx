@@ -13,7 +13,7 @@ const Title = memo(() => {
         <h1> </h1>
         <h2>Portfolio</h2>
         <h4>
-          Sophomore at New York University
+          Junior at New York University
           <br /> Studying Computer Science and Game Design
         </h4>
       </div>
