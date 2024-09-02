@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.4560ec85.chunk.css",
-    "main.js": "/static/js/main.c527276a.chunk.js",
-    "main.js.map": "/static/js/main.c527276a.chunk.js.map",
+    "main.js": "/static/js/main.ef99eda7.chunk.js",
+    "main.js.map": "/static/js/main.ef99eda7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8dff4b04.js",
     "runtime-main.js.map": "/static/js/runtime-main.8dff4b04.js.map",
     "static/js/2.9413c698.chunk.js": "/static/js/2.9413c698.chunk.js",
@@ -22,7 +22,7 @@
     "static/media/Kingslayers.68c820b9.png": "/static/media/Kingslayers.68c820b9.png",
     "static/media/Kingslayers.974a7db3.pdf": "/static/media/Kingslayers.974a7db3.pdf",
     "static/media/League.e59a1c6e.jpg": "/static/media/League.e59a1c6e.jpg",
-    "static/media/Me.9057726a.jpg": "/static/media/Me.9057726a.jpg",
+    "static/media/Me.2e304942.jpg": "/static/media/Me.2e304942.jpg",
     "static/media/Memory.4febb014.png": "/static/media/Memory.4febb014.png",
     "static/media/Mother.983fa181.png": "/static/media/Mother.983fa181.png",
     "static/media/Mother.9d500dbf.pdf": "/static/media/Mother.9d500dbf.pdf",
@@ -37,6 +37,6 @@
     "static/js/runtime-main.8dff4b04.js",
     "static/js/2.9413c698.chunk.js",
     "static/css/main.4560ec85.chunk.css",
-    "static/js/main.c527276a.chunk.js"
+    "static/js/main.ef99eda7.chunk.js"
   ]
 }
