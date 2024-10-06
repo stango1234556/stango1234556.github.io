@@ -7,13 +7,8 @@ import Python from "../images/Python.png";
 import PremierePro from "../images/PremierePro.png";
 import VSCode from "../images/VSCode.png";
 import C from "../images/C.png";
-
-import {
-  // Java,
-  // Python,
-  // Adobepremierepro,
-  // C
-} from "@icons-pack/react-simple-icons";
+import CSharp from "../images/CSharp.png";
+import Unity from "../images/Unity.png";
 
 const Skills = memo(({ refs }) => {
   return (
@@ -22,6 +17,29 @@ const Skills = memo(({ refs }) => {
       <div className="skills-content">
         <h3 className="skill-title">Languages</h3>
         <div className="skills-infos">
+
+        <div className="skill-group">
+            <div className="skill">
+              <img
+              className="c-picture"
+              src={C} height = "65" width = "60"
+              alt="Failed to load."
+              ></img>
+            </div>
+            <p className="skill-info">C</p>
+          </div>
+
+          <div className="skill-group">
+            <div className="skill">
+              <img
+              className="c#-picture"
+              src={CSharp} height = "65" width = "60"
+              alt="Failed to load."
+              ></img>
+            </div>
+            <p className="skill-info">C#</p>
+          </div>
+
           <div className="skill-group">
             <div className="skill">
               <img
@@ -32,6 +50,7 @@ const Skills = memo(({ refs }) => {
             </div>
             <p className="skill-info">Java</p>
           </div>
+
           <div className="skill-group">
             <div className="skill">
               <img
@@ -42,19 +61,11 @@ const Skills = memo(({ refs }) => {
             </div>
             <p className="skill-info">Python</p>
           </div>
-          <div className="skill-group">
-            <div className="skill">
-              <img
-              className="c-picture"
-              src={C} height = "65" width = "60"
-              alt="Failed to load."
-              ></img>
-            </div>
-            <p className="skill-info">C</p>
-          </div>
+
         </div>
         <h3 className="skill-title">Applications</h3>
         <div className="skills-infos">
+
           <div className="skill-group">
             <div className="skill">
               <img
@@ -65,6 +76,7 @@ const Skills = memo(({ refs }) => {
             </div>
             <p className="skill-info">GameMaker</p>
           </div>
+
           <div className="skill-group">
             <div className="skill">
               <img
@@ -75,6 +87,18 @@ const Skills = memo(({ refs }) => {
             </div>
             <p className="skill-info">Premiere Pro</p>
           </div>
+
+          <div className="skill-group">
+            <div className="skill">
+              <img
+              className="unity-picture"
+              src={Unity} height = "55" width = "55"
+              alt="Failed to load."
+              ></img>
+            </div>
+            <p className="skill-info">Unity</p>
+          </div>
+
           <div className="skill-group">
             <div className="skill">
               <img
@@ -85,6 +109,7 @@ const Skills = memo(({ refs }) => {
             </div>
             <p className="skill-info">VS Code</p>
           </div>
+
         </div>
       </div>
     </section>
