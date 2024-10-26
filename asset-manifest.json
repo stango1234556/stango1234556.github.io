@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.4560ec85.chunk.css",
-    "main.js": "/static/js/main.7b5a1ead.chunk.js",
-    "main.js.map": "/static/js/main.7b5a1ead.chunk.js.map",
+    "main.js": "/static/js/main.b32c4740.chunk.js",
+    "main.js.map": "/static/js/main.b32c4740.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8dff4b04.js",
     "runtime-main.js.map": "/static/js/runtime-main.8dff4b04.js.map",
     "static/js/2.463039f7.chunk.js": "/static/js/2.463039f7.chunk.js",
@@ -13,12 +13,15 @@
     "static/css/main.4560ec85.chunk.css.map": "/static/css/main.4560ec85.chunk.css.map",
     "static/js/2.463039f7.chunk.js.LICENSE.txt": "/static/js/2.463039f7.chunk.js.LICENSE.txt",
     "static/media/C.bf0af88d.png": "/static/media/C.bf0af88d.png",
+    "static/media/CSS.9f33c557.png": "/static/media/CSS.9f33c557.png",
     "static/media/CSharp.dcfd7cba.png": "/static/media/CSharp.dcfd7cba.png",
     "static/media/ComingSoon.cff93457.png": "/static/media/ComingSoon.cff93457.png",
     "static/media/DiceWars.111fb325.png": "/static/media/DiceWars.111fb325.png",
     "static/media/DiceWars.322e03f1.pdf": "/static/media/DiceWars.322e03f1.pdf",
     "static/media/Echolocation.173f1616.pdf": "/static/media/Echolocation.173f1616.pdf",
     "static/media/Echolocation.ae581218.jpg": "/static/media/Echolocation.ae581218.jpg",
+    "static/media/Flask.a3d13b80.png": "/static/media/Flask.a3d13b80.png",
+    "static/media/HTML.1d7b133e.png": "/static/media/HTML.1d7b133e.png",
     "static/media/Java.ddf8676b.png": "/static/media/Java.ddf8676b.png",
     "static/media/Kingslayers.68c820b9.png": "/static/media/Kingslayers.68c820b9.png",
     "static/media/Kingslayers.974a7db3.pdf": "/static/media/Kingslayers.974a7db3.pdf",
@@ -30,7 +33,7 @@
     "static/media/Podcast.9161face.jpg": "/static/media/Podcast.9161face.jpg",
     "static/media/PremierePro.c26a26f6.png": "/static/media/PremierePro.c26a26f6.png",
     "static/media/Python.448fb2a8.png": "/static/media/Python.448fb2a8.png",
-    "static/media/Resume.cca6d0ce.pdf": "/static/media/Resume.cca6d0ce.pdf",
+    "static/media/Resume.03c1a040.pdf": "/static/media/Resume.03c1a040.pdf",
     "static/media/portfolio.scss": "/static/media/SakuraCity.4d252ca8.gif",
     "static/media/Unity.43a9b859.png": "/static/media/Unity.43a9b859.png",
     "static/media/VSCode.ed4788d2.png": "/static/media/VSCode.ed4788d2.png"
@@ -39,6 +42,6 @@
     "static/js/runtime-main.8dff4b04.js",
     "static/js/2.463039f7.chunk.js",
     "static/css/main.4560ec85.chunk.css",
-    "static/js/main.7b5a1ead.chunk.js"
+    "static/js/main.b32c4740.chunk.js"
   ]
 }
