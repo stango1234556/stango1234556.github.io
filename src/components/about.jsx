@@ -3,11 +3,14 @@ import "../styles/about.scss";
 import img from "../images/Me.jpg";
 
 import {
-  IoPerson,
   IoLocationSharp,
   IoMailSharp,
-  IoCalendarClearOutline,
+  IoLogoLinkedin,
 } from "react-icons/io5";
+
+import  {
+  FaItchIo
+} from "react-icons/fa6";
 
 const About = memo(({ refs }) => {
   return (
@@ -29,11 +32,6 @@ const About = memo(({ refs }) => {
           <ul>
             <li>
               <div className="info-li">
-                <IoPerson className="icon" /> Samuel Tang
-              </div>
-            </li>
-            <li>
-              <div className="info-li">
                 <IoLocationSharp className="icon" /> New York, NY
               </div>
             </li>
@@ -44,7 +42,22 @@ const About = memo(({ refs }) => {
             </li>
             <li>
               <div className="info-li">
-                <IoCalendarClearOutline className="icon" /> 2003.12.14
+                <IoLogoLinkedin className="icon" /> <a
+                    className="button"
+                    href="https://www.linkedin.com/in/samuel-y-tang/"
+                  >
+                    LinkedIn
+                  </a>
+              </div>
+            </li>
+            <li>
+              <div className="info-li">
+                <FaItchIo className="icon" /> <a
+                    className="button"
+                    href="https://samuelytang.itch.io/"
+                  >
+                    itch.io
+                  </a>
               </div>
             </li>
           </ul>

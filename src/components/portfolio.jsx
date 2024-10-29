@@ -7,6 +7,7 @@ import podcast from "../images/Podcast.jpg";
 import kingslayers from "../images/Kingslayers.png";
 import dicewars from "../images/DiceWars.png";
 import mother from "../images/Mother.png";
+import shell from "../images/Shell.png";
 import echolocation from "../images/Echolocation.jpg";
 import comingsoon from "../images/ComingSoon.png";
 import dicepdf from '../documents/DiceWars.pdf';
@@ -42,12 +43,35 @@ const Portfolio = memo(({ refs }) => {
         <div className="portfolio-info-area">
           <div className="portfolio-info">
             <div className="picture-area">
+              <img src={shell} alt="Failed to load." />
+            </div>
+            <div className="title"><br />Unix Shell</div>
+            <div className="contents">
+              <br />
+              A recreation of a simplified version of the Unix shell. Features the use of pipes, input and output redirection, and built-in commands such as "exit", "ls", "cd", etc.
+              <br />
+              <br />
+              
+            </div>
+            <a
+              className="button"
+              href="https://github.com/stango1234556/shell"
+            >
+              Github Link
+            </a>
+          </div>
+        </div>
+
+        <div className="portfolio-info-area">
+          <div className="portfolio-info">
+            <div className="picture-area">
               <img src={dicewars} alt="Failed to load." />
             </div>
             <div className="title"><br />Dice Wars</div>
             <div className="contents">
               <br />
               A 2 player game where you roll dice to defeat your opponent. Add dice to your dice pool to strengthen and change your army's playstyle in a deck-building-esque game. Our group is planning to continue to develop this game.
+              <br />
               <br />
             </div>
             <a
@@ -94,8 +118,6 @@ const Portfolio = memo(({ refs }) => {
             <div className="contents">
               <br />
               A single player high score card game with fantasy and tokusatsu as thematic constraints.
-              <br />
-              <br />
               <br />
               <br />
             </div>
@@ -161,7 +183,6 @@ const Portfolio = memo(({ refs }) => {
             <div className="contents">
               <br />
               A Python script that utilizes PyAutoGUI to automatically play Human Benchmark’s Sequence Memory test.
-              <br />
               <br />
               <br />
             </div>
