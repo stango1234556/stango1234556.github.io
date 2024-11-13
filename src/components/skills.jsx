@@ -7,6 +7,7 @@ import Python from "../images/Python.png";
 import PremierePro from "../images/PremierePro.png";
 import VSCode from "../images/VSCode.png";
 import C from "../images/C.png";
+import Cplusplus from "../images/C++.png";
 import CSharp from "../images/CSharp.png";
 import Unity from "../images/Unity.png";
 import HTML from "../images/HTML.png";
@@ -69,7 +70,7 @@ const Skills = memo(({ refs }) => {
             <div className="skill">
               <img
               className="c-picture"
-              src={C} height = "65" width = "60"
+              src={C} height = "70" width = "62"
               alt="Failed to load."
               ></img>
             </div>
@@ -79,8 +80,19 @@ const Skills = memo(({ refs }) => {
           <div className="skill-group">
             <div className="skill">
               <img
+              className="c++-picture"
+              src={Cplusplus} height = "105" width = "180"
+              alt="Failed to load."
+              ></img>
+            </div>
+            <p className="skill-info">C++</p>
+          </div>
+          
+          <div className="skill-group">
+            <div className="skill">
+              <img
               className="c#-picture"
-              src={CSharp} height = "65" width = "60"
+              src={CSharp} height = "70" width = "60"
               alt="Failed to load."
               ></img>
             </div>
