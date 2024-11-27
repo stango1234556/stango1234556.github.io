@@ -6,14 +6,7 @@ import { Github } from "@icons-pack/react-simple-icons";
 const Footer = memo(({ handleScroll }) => {
   return (
     <footer className="footer-section">
-      <div className="footer-contents">
-        <button onClick={() => handleScroll()} className="topButton">
-          <IoArrowUp />
-        </button>
-        <a href="https://github.com/stango1234556">
-          <Github color="#000" size={30} />
-        </a>
-      </div>
+      
     </footer>
   );
 });

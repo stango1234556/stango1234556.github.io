@@ -16,6 +16,7 @@ import motherpdf from '../documents/Mother.pdf';
 import echolocationpdf from '../documents/Echolocation.pdf';
 import expenseapp from '../images/ExpenseApp.png';
 import drunkblackjack from '../images/DrunkBlackjack.png';
+import emotiondetector from '../images/EmotionDetector.png';
 
 const Portfolio = memo(({ refs }) => {
   return (
@@ -26,10 +27,34 @@ const Portfolio = memo(({ refs }) => {
       <div className="portfolio-info-area">
           <div className="portfolio-info">
             <div className="picture-area">
+              <img src={emotiondetector} alt="Failed to load." />
+            </div>
+            <div className="title"><br />Emotion Recognition and Mental Health Advice Web App</div>
+            <div className="contents">
+              <br />
+              A web app that uses an existing Hugging Face machine learning API to analyze and classify a user’s emotion based on recorded audio input, then provides the user with advice based on the detected emotion.
+
+              <br />
+              
+            </div>
+            <a
+              className="button"
+              href="https://github.com/software-students-fall2024/4-containers-swe-switching-with-econ-1"
+            >
+              Github Link
+            </a>
+          </div>
+        </div>
+
+      <div className="portfolio-info-area">
+          <div className="portfolio-info">
+            <div className="picture-area">
               <img src={drunkblackjack} alt="Failed to load." />
             </div>
             <div className="title"><br />Drunk Blackjack</div>
             <div className="contents">
+              <br />
+              <br />
               <br />
               A lighthearted Blackjack python package that gives you the option to get "drunk" and see how it affects your play, as well as get commentary on your actions and get good or bad advice on gambling. Warning: don't drink like this in real life!
 
@@ -55,7 +80,6 @@ const Portfolio = memo(({ refs }) => {
               <br />
               Recreation of a Unix shell in C from scratch. The shell can parse user input and handle signals, built-in commands, input and output redirection, and the use of pipes.
               <br />
-              <br />
               
             </div>
             <a
@@ -78,7 +102,6 @@ const Portfolio = memo(({ refs }) => {
               A mobile web app that allows users to create accounts, add/remove/edit logs of expenses, as well as searching and sorting saved logs. 
 
               <br />
-              <br />
               
             </div>
             <a
@@ -86,25 +109,6 @@ const Portfolio = memo(({ refs }) => {
               href="https://github.com/software-students-fall2024/2-web-app-now-you-re-unemployed"
             >
               Github Link
-            </a>
-          </div>
-        </div>
-
-        <div className="portfolio-info-area">
-          <div className="portfolio-info">
-            <div className="picture-area">
-              <img src={podcast} alt="Failed to load." />
-            </div>
-            <div className="title"><br />The Rundown Podcast</div>
-            <div className="contents">
-              <br />
-              Collaborated with a friend to write, film, and edit a seven episode podcast series. Researched about different video game related topics (design philosophies, development process, mainstream impact, speedrunning, esports, etc.).
-            </div>
-            <a
-              className="button"
-              href="https://youtube.com/playlist?list=PL4wWDP4Ots73mS4XPfh2tsEYfRNS1SDa6&si=LqMEQTZutpMVFUz3"
-            >
-              Youtube Link
             </a>
           </div>
         </div>
@@ -159,12 +163,32 @@ const Portfolio = memo(({ refs }) => {
         <div className="portfolio-info-area">
           <div className="portfolio-info">
             <div className="picture-area">
+              <img src={podcast} alt="Failed to load." />
+            </div>
+            <div className="title"><br />The Rundown Podcast</div>
+            <div className="contents">
+              <br />
+              Collaborated with a friend to write, film, and edit a seven episode podcast series. Researched about different video game related topics (design philosophies, development process, mainstream impact, speedrunning, esports, etc.).
+            </div>
+            <a
+              className="button"
+              href="https://youtube.com/playlist?list=PL4wWDP4Ots73mS4XPfh2tsEYfRNS1SDa6&si=LqMEQTZutpMVFUz3"
+            >
+              Youtube Link
+            </a>
+          </div>
+        </div>
+
+        <div className="portfolio-info-area">
+          <div className="portfolio-info">
+            <div className="picture-area">
               <img src={mother} alt="Failed to load." />
             </div>
             <div className="title"><br />Mother</div>
             <div className="contents">
               <br />
               A single player high score card game with fantasy and tokusatsu as thematic constraints.
+              <br />
               <br />
               <br />
             </div>

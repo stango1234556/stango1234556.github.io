@@ -13,6 +13,7 @@ import Unity from "../images/Unity.png";
 import HTML from "../images/HTML.png";
 import CSS from "../images/CSS.png";
 import Flask from "../images/Flask.png";
+import Docker from "../images/Docker.png";
 
 const Skills = memo(({ refs }) => {
   return (
@@ -26,17 +27,6 @@ const Skills = memo(({ refs }) => {
           <div className="skill-group">
               <div className="skill">
                 <img
-                className="HTML-picture"
-                src={HTML} height = "59" width = "49"
-                alt="Failed to load."
-                ></img>
-              </div>
-              <p className="skill-info">HTML</p>
-          </div>
-
-          <div className="skill-group">
-              <div className="skill">
-                <img
                 className="CSS-picture"
                 src={CSS} height = "65" width = "60"
                 alt="Failed to load."
@@ -45,10 +35,32 @@ const Skills = memo(({ refs }) => {
               <p className="skill-info">CSS</p>
           </div>
 
+          <div className="skill-group">
+              <div className="skill">
+                <img
+                className="HTML-picture"
+                src={HTML} height = "59" width = "49"
+                alt="Failed to load."
+                ></img>
+              </div>
+              <p className="skill-info">HTML</p>
+          </div>
+
         </div>
 
         <h3 className="skill-title">Back-end</h3>
         <div className="skills-infos">
+
+        <div className="skill-group">
+              <div className="skill">
+                <img
+                className="Docker-picture"
+                src={Docker} height = "80" width = "70"
+                alt="Failed to load."
+                ></img>
+              </div>
+              <p className="skill-info">Docker</p>
+          </div>
 
           <div className="skill-group">
               <div className="skill">
