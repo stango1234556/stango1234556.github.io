@@ -17,12 +17,42 @@ import echolocationpdf from '../documents/Echolocation.pdf';
 import expenseapp from '../images/ExpenseApp.png';
 import drunkblackjack from '../images/DrunkBlackjack.png';
 import emotiondetector from '../images/EmotionDetector.png';
+import coursescheduler from '../images/CourseScheduler.png';
 
 const Portfolio = memo(({ refs }) => {
   return (
     <section ref={refs} className="portfolio-section">
       <div className="section-title">PORTFOLIO</div>
       <div className="portfolio-content">
+      
+      <div className="portfolio-info-area">
+          <div className="portfolio-info">
+            <div className="picture-area">
+              <img src={coursescheduler} alt="Failed to load." />
+            </div>
+            <div className="title"><br />Class Scheduler Web App</div>
+            <div className="contents">
+              <br />
+              <br />
+              <br />
+              A web app that uses a generation algorithm to create potential schedules for a user based on inputted courses, a target credit range, and course priorities.
+              <br />
+              <br />
+            </div>
+            <a
+              className="button"
+              href="http://138.197.107.82:3000/login"
+            >
+              Web App Link
+            </a>
+            <a
+              className="button"
+              href="https://github.com/software-students-fall2024/5-final-swe_switching_with_econ/blob/main/instructions.md"
+            >
+              Github Link
+            </a>
+          </div>
+        </div>
 
       <div className="portfolio-info-area">
           <div className="portfolio-info">
@@ -54,8 +84,6 @@ const Portfolio = memo(({ refs }) => {
             <div className="title"><br />Drunk Blackjack</div>
             <div className="contents">
               <br />
-              <br />
-              <br />
               A lighthearted Blackjack python package that gives you the option to get "drunk" and see how it affects your play, as well as get commentary on your actions and get good or bad advice on gambling. Warning: don't drink like this in real life!
 
               <br />
@@ -80,6 +108,7 @@ const Portfolio = memo(({ refs }) => {
               <br />
               Recreation of a Unix shell in C from scratch. The shell can parse user input and handle signals, built-in commands, input and output redirection, and the use of pipes.
               <br />
+              <br />
               
             </div>
             <a
@@ -100,7 +129,7 @@ const Portfolio = memo(({ refs }) => {
             <div className="contents">
               <br />
               A mobile web app that allows users to create accounts, add/remove/edit logs of expenses, as well as searching and sorting saved logs. 
-
+              <br />
               <br />
               
             </div>
@@ -122,7 +151,6 @@ const Portfolio = memo(({ refs }) => {
             <div className="contents">
               <br />
               A 2 player game where you roll dice to defeat your opponent. Add dice to your dice pool to strengthen and change your army's playstyle in a deck-building-esque game. Our group is planning to continue to develop this game.
-              <br />
               <br />
             </div>
             <a
@@ -169,6 +197,7 @@ const Portfolio = memo(({ refs }) => {
             <div className="contents">
               <br />
               Collaborated with a friend to write, film, and edit a seven episode podcast series. Researched about different video game related topics (design philosophies, development process, mainstream impact, speedrunning, esports, etc.).
+              <br />
             </div>
             <a
               className="button"
@@ -188,7 +217,6 @@ const Portfolio = memo(({ refs }) => {
             <div className="contents">
               <br />
               A single player high score card game with fantasy and tokusatsu as thematic constraints.
-              <br />
               <br />
               <br />
             </div>
