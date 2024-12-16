@@ -198,6 +198,7 @@ const Portfolio = memo(({ refs }) => {
               <br />
               Collaborated with a friend to write, film, and edit a seven episode podcast series. Researched about different video game related topics (design philosophies, development process, mainstream impact, speedrunning, esports, etc.).
               <br />
+              <br />
             </div>
             <a
               className="button"
