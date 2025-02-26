@@ -28,7 +28,7 @@ const About = memo(({ refs }) => {
           <b className="info-title">"stango"</b>
           <div className="info">
             <br />
-            Hello! I am a student at New York University from Plainsboro, New Jersey. I am working towards a major in Computer Science and a minor in Game Design. I am also a part of NYU's Accelerated Bachelor's - Master's program for Computer Science. I am a member of the EGD Collective's Game Studio Program, where I gain experience working with other programmers, designers, and artists to create an indie game using Unity. In my free time I play piano, explore the city, and compete on NYU's Overwatch 2 team. Thanks for stopping by!
+            Hello! I am a student at New York University from Plainsboro, New Jersey. I am working towards a major in Computer Science and a minor in Game Design. I am also a part of NYU's Accelerated Bachelor's - Master's program for Computer Science. I was a member of the EGD Collective's Game Studio Program, where I gained experience working with other programmers, designers, and artists to create an indie game using Unity. In my free time I play piano, explore the city, and compete on NYU's Overwatch 2 team. Thanks for stopping by!
           </div>
           <ul>
             
