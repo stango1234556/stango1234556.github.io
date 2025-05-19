@@ -43,12 +43,6 @@ const Portfolio = memo(({ refs }) => {
             </div>
             <a
               className="button"
-              href="http://138.197.107.82:3000/login"
-            >
-              Web App Link
-            </a>
-            <a
-              className="button"
               href="https://github.com/software-students-fall2024/5-final-swe_switching_with_econ/blob/main/instructions.md"
             >
               Github Link
